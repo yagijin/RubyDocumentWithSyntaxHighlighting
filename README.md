@@ -1,4 +1,4 @@
-## Ruby Japanese Document Template 
+## Ruby Document With Syntax Highlighting
 
 [Rubyリファレンスマニュアル](https://docs.ruby-lang.org/ja/latest/doc/index.html)を自分好みのデザインにしました．
 シンタックスハイライトもついています．
