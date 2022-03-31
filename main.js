@@ -1,18 +1,17 @@
 
+// コード部分にclassを付与するかつ、codeタグの中に入れる
 const pres = document.getElementsByTagName("pre");
 for(let i in pres){
   document.getElementsByTagName("pre")[i].innerHTML = "<code class='ruby'>"+pres[i].innerHTML+"</code>";
 }
 
+// highlight.jsのcssを適用する
 const elcss = document.createElement("link");
 elcss.rel = "stylesheet";
 elcss.href = "//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/darcula.min.css";
 document.head.appendChild(elcss);
 
-const el = document.createElement("script");
-el.src = "//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/highlight.min.js";
-document.head.appendChild(el);
-
+// chrome拡張では外部jsは読み込めないので埋め込む
 /*
   Highlight.js 10.0.2 (e29f8f7d)
   License: BSD-3-Clause
