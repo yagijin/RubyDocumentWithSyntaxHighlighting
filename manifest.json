@@ -1,7 +1,7 @@
 {
   "name": "RubyDocumentWithSyntaxHighlighting",
   "author": "Jin Yagi",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "This extension extend Japanese Ruby document(https://docs.ruby-lang.org/ja/) with syntax highlighting.",
   "manifest_version": 3,
   "icons": {
